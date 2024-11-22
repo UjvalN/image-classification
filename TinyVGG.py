@@ -1,3 +1,6 @@
+import torch
+from torch import nn
+
 class TinyVGG(nn.Module):
   def __init__(self,
                input_shape: int,
