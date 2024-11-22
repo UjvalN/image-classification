@@ -15,6 +15,7 @@ import timeit
 from timeit import default_timer as timer
 
 from helper_functions import accuracy_fn
+import TinyVGG
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 torch.manual_seed(42)
